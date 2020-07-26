@@ -1,0 +1,8 @@
+systemctl start nginx（启动nginx）
+uwsgi --http   0.0.0.0:9090  --wsgi-file foobar.py（运行文件）
+source bin/activate（进入虚拟环境）
+startx（启动图形界面）
+systemctl start nginx.service
+systemctl stop nginx.service
+systemctl reload nginx.service
+systemctl status nginx.service
